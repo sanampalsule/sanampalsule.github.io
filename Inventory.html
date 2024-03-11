@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: justify;
+        }
+        .tech-stack {
+            margin-top: 20px;
+        }
+        .tech-stack h2 {
+            font-size: 20px;
+            color: #555;
+        }
+        .tech-stack .big-bullets {
+            padding-left: 30px;
+        }
+        .tech-stack .big-bullets li::before {
+            content: "•";
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .tech-stack .small-bullets {
+            padding-left: 40px;
+        }
+        .tech-stack .small-bullets li {
+            list-style-type: circle;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CLOUD NATIVE INVENTORY MANAGEMENT</h1>
+        <img src="./assets/img/project/Inventory1.png" alt="Image 1">
+        <img src="./assets/img/project/Inventory2.png" alt="Image 1">
+        <p>The cloud-native inventory application is designed to streamline and optimize inventory management processes, particularly focused on the grocery industry. It comprises two main microservices: a Node.js/Express.js backend service and a Next.js front-end web service. The application's primary objective is to efficiently organize and monitor grocery inventory levels in real-time, facilitating smooth operations for businesses.</p>
+        <div class="tech-stack">
+            <h2>Technology Stack Used:</h2>
+            <ul class="big-bullets">
+                <li>Frontend:Next.js</li>
+                <li>Backend: Node.js/Express.js</li>
+                <li>Database: Amazon RDS for PostgreSQL datastore</li>
+                <li>Deployment : Docker, AWS (Amazon Web Services)- AEKS, ECR & ALB. </li>
+            </ul>
+           
+            <ul class="small-bullets">
+                <li>Developed a cloud-native inventory application with two microservices - a Node.js/Express.js backend service and a Next.js front-end web service - aimed at organizing and monitoring grocery inventory levels. </li>
+                <li>The application focused on enhancing data retrieval speed by 40% through optimized ORM (Sequelize and Prisma) usage to interface the microservices with Amazon Relational Database Service (RDS) PostgreSQL datastore.</li>
+                
+            
+        </div>
+    </div>
+</body>
+</html>
