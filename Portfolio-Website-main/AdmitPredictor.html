@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: justify;
+        }
+        .tech-stack {
+            margin-top: 20px;
+        }
+        .tech-stack h2 {
+            font-size: 20px;
+            color: #555;
+        }
+        .tech-stack .big-bullets {
+            padding-left: 30px;
+        }
+        .tech-stack .big-bullets li::before {
+            content: "•";
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .tech-stack .small-bullets {
+            padding-left: 40px;
+        }
+        .tech-stack .small-bullets li {
+            list-style-type: circle;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Automated Essay Grading</h1>
+        <img src="./assets/img/project/Admit1.png" alt="Image 1">
+        <img src="./assets/img/project/Admit2.png" alt="Image 1">
+        <p>The goal of this project is to develop a predictive model that can estimate the chances of admission for graduate school applicants based on their application information. The model will be built using historical data from Hudson University's Graduate Admissions Department, which includes various attributes such as GRE scores, TOEFL scores, university ratings, statement of purpose strength, letters of recommendation, undergraduate GPA, and research experience.</p>
+        <div class="tech-stack">
+            <h2>Technology Stack Used:</h2>
+            <ul class="big-bullets">
+                <li>Python</li>
+                <li>Libraries : Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy</li>
+                
+            </ul>
+            <h4>Part 1: Data Exploration and Preprocessing:</h4>
+            <ul class="small-bullets">
+                <li>Perform exploratory data analysis, including calculating descriptive statistics, visualizing variable distributions, and investigating relationships between variables.</li>
+                <li>Preprocess the data as necessary, such as handling missing values, renaming columns, or encoding categorical variables.</li>
+                
+            </ul>
+            <h4>Part 2: Predictive Modeling & Comparison:</h4>
+            <ul class="small-bullets">
+                <li>Build a linear regression model to predict the chance of admission based on the available application attributes.</li>
+                <li>Implement an alternative regression model, such as Random Forest Regression.</li>
+                <li>Evaluate the model's performance using metrics such as R-squared and Root Mean Squared Error (RMSE) on the test set.</li>
+            </ul>
+            <h4>Part 3: Interpretation and Recommendations::</h4>
+            <ul class="small-bullets">
+                <li>Interpret the results of the predictive model(s) and their implications for the admissions process.</li>
+                <li>Discuss potential actions the admissions team could take based on the model predictions.</li>
+                <li>Identify any concerns or limitations related to using the data and model for admission decisions.</li>
+                
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: justify;
+        }
+        .tech-stack {
+            margin-top: 20px;
+        }
+        .tech-stack h2 {
+            font-size: 20px;
+            color: #555;
+        }
+        .tech-stack .big-bullets {
+            padding-left: 30px;
+        }
+        .tech-stack .big-bullets li::before {
+            content: "•";
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .tech-stack .small-bullets {
+            padding-left: 40px;
+        }
+        .tech-stack .small-bullets li {
+            list-style-type: circle;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SMART BOOK RECOMMENDATION AND RESTOCK SYSTEM</h1>
+        <img src="./assets/img/project/Book1.png" alt="Image 1">
+        <img src="./assets/img/project/Book2.png" alt="Image 2">
+        <img src="./assets/img/project/Book3.png" alt="Image 3">
+        <img src="./assets/img/project/Book4.png" alt="Image 4">
+        <p>The Smart Book Recommendation & Restock System addresses several challenges faced by bookstores, focusing on improving efficiency, customer satisfaction, and inventory management. It provides features like Accurate Book Rating Prediction, Personalized Book Recommendations that aid the admin in restocking, hence reducing over or under stocking and provides the buyers with recommendations.</p>
+        <div class="tech-stack">
+            <h2>Technology Stack Used:</h2>
+            <ul class="big-bullets">
+                <li>Frontend: HTML/CSS/JS</li>
+                <li>Backend: Python/Flask</li>
+                <li>Database and ORM: MySQL, SQLAlchemy</li>
+                <li>ML Models/Algos: Random Forest, K-means Clustering</li>
+                
+            </ul>
+            
+            <ul class="small-bullets">
+                <li>Developed a comprehensive Bookstore Management System utilizing Python, Flask, and HTML/CSS/JS to facilitate efficient browsing, ordering, and order tracking for a vast catalog of over 5,000 books. </li>
+                <li>Employed four machine learning models, with Random Forest achieving an impressive 98.55% accuracy in predicting book ratings, thereby assisting administrators in restocking decisions and reducing instances of overstocking and understocking by 30%. </li>
+                <li>Additionally, engineered a sophisticated recommendation system using K-means clustering to provide personalized book suggestions, enhancing the user experience and driving engagement. Integrated MySQL with Object Relational Mappers like SQLAlchemy to optimize database interactions and ensure seamless data management.
+
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</body>
+</html>

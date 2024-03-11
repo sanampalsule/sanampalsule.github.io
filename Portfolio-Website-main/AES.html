@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: justify;
+        }
+        .tech-stack {
+            margin-top: 20px;
+        }
+        .tech-stack h2 {
+            font-size: 20px;
+            color: #555;
+        }
+        .tech-stack .big-bullets {
+            padding-left: 30px;
+        }
+        .tech-stack .big-bullets li::before {
+            content: "•";
+            color: #333;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .tech-stack .small-bullets {
+            padding-left: 40px;
+        }
+        .tech-stack .small-bullets li {
+            list-style-type: circle;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Automated Essay Grading</h1>
+        <img src="./assets/img/project/AES1.png" alt="Image 1">
+        <p>We tackled the challenge of automatically grading essays, using cutting-edge algorithms to enhance educational assessment. Employing sophisticated machine learning and natural language processing techniques like linear regression, support vector regression, and recurrent neural networks, the aim is to predict essay scores with precision and efficiency.</p>
+        <div class="tech-stack">
+            <h2>Technology Stack Used:</h2>
+            <ul class="big-bullets">
+                <li>Python</li>
+                <li>Libraries : Scikit-learn, TensorFlow, PyTorch, Pandas, NumPy</li>
+                
+            </ul>
+            <h4>Part 1: Data Exploration and Preprocessing:</h4>
+            <ul class="small-bullets">
+                <li>Preprocessing steps such as tokenization, normalization, and removal of stopwords and punctuation marks are performed on the raw text data.</li>
+                <li>Exploratory data analysis techniques are employed to gain insights into the underlying patterns and structure of the dataset, laying the foundation for subsequent model development.</li>
+                
+            </ul>
+            <h4>Part 2: Feature Engineering and Model Development:</h4>
+            <ul class="small-bullets">
+                <li>Predictive models are developed using a variety of machine learning algorithms, including linear regression, support vector regression, and deep learning architectures like recurrent neural networks.</li>
+                <li>Standard regression metrics such as Mean Absolute Error and Pearson correlation coefficient are utilized to evaluate the performance of the developed models and ensure alignment with human-annotated scores.</li>
+                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
